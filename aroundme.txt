@@ -1,0 +1,45 @@
+Application Registered!
+
+Your API keys are:
+Places API
+Key: x33xapgx4uchcx7x7yv8g9kk
+
+Application:
+    AroundMe3 
+Key:
+    x33xapgx4uchcx7x7yv8g9kk 
+Status:
+    waiting 
+Registered:
+    6 seconds ago 
+
+Key Rate Limits
+2	Calls per second
+5,000	Calls per day
+Places Sandbox API
+Key: y9bm6gh97sevqd6mreuesw33
+
+Application:
+    AroundMe3 
+Key:
+    y9bm6gh97sevqd6mreuesw33 
+Status:
+    active 
+Registered:
+    6 seconds ago 
+
+Key Rate Limits
+1	Calls per second
+300	Calls per day
+
+
+keytool -list -v -keystore c:\users\Venepally Prajith\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+cd C:\Program Files\Java\jdk1.8.0_45\bin
+
+keytool -exportcert -alias androiddebugkey -keystore "
+C:\Users\Venepally Prajith\.android\debug.keystore" -list -v
+7A:FF:A7:6C:83:00:D1:B7:6F:32:DE:47:76:D8:2B:DF:87:02:7F:0D
+
+
+
+android.library.reference.2=../google-play-services_lib
